@@ -1,16 +1,68 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Aryan Prahraj — Portfolio
 
-Currently, two official plugins are available:
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000?logo=vercel&logoColor=white)](https://aryan-portfolio-amber.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to my personal portfolio! This site is a showcase of my journey as a developer, my projects, skills, and a little bit of my personality. Built with ❤️ using React, Vite, and Tailwind CSS.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+👉 **Check it out here:** [aryan-portfolio-amber.vercel.app](https://aryan-portfolio-amber.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 👋 About Me
+
+Hi! I'm Aryan Prahraj — a cloud-ready, curiosity-driven software engineer. I love building reliable, modern web apps and exploring new tech. Currently pursuing my M.S. in Computer Science at Pace University, I enjoy solving real-world problems and making software that's both robust and fun.
+
+- 📧 **Email:** [aryanprahraj@gmail.com](mailto:aryanprahraj@gmail.com)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/aryan-prahraj-89545160/) | [GitHub](https://github.com/aryanprahraj)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS, Vite
+- **Backend:** Node.js, Express, REST APIs
+- **Cloud:** AWS, GCP (basics)
+- **DevOps:** Docker, Git, Vercel
+
+---
+
+## 🎨 Features
+
+- ✨ Modern, responsive design
+- 🌙 Dark mode with a fun, glowing vibe
+- 📱 Mobile-friendly
+- 🛠️ Easy to update and extend
+- 🖼️ Full-screen background, animated effects
+
+---
+
+## 📦 Getting Started
+
+1. Clone the repo:
+	```bash
+	git clone https://github.com/aryanprahraj/Aryan-Portfolio.git
+	cd Aryan-Portfolio/my-portfolio
+	```
+2. Install dependencies:
+	```bash
+	npm install
+	```
+3. Start the dev server:
+	```bash
+	npm run dev
+	```
+
+---
+
+## 📝 License
+
+MIT — use, remix, and have fun!
+
+---
+
+> Made with ☕, code, and a dash of chaos.
