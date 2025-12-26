@@ -396,7 +396,7 @@ export default function Portfolio() {
                 <button onClick={() => setModalOpen(null)} className="text-slate-400 hover:text-white text-2xl">×</button>
               </div>
 
-              <div className="flex flex-wrap justify-center gap-3 px-2 flex-1 overflow-y-auto">
+              <div className="flex flex-wrap justify-center gap-2 px-2 flex-1 overflow-y-auto items-start content-start">
                 {[
                   // Programming Languages
                   "Java", "Python", "C", "C++", "C#", "JavaScript", "TypeScript",
@@ -415,12 +415,13 @@ export default function Portfolio() {
                   // IDEs / Tools
                   "Eclipse", "IntelliJ IDEA", "Visual Studio", "Jira", "Postman",
                 ].map((skill, i) => (
-                  <span
+                  <div
                     key={i}
-                    className="px-3 py-1 bg-gradient-to-br from-slate-700/30 to-slate-900/30 text-slate-100 rounded text-sm border border-slate-700 shadow-md hover:bg-slate-700/40 hover:text-white transition select-none font-medium tracking-wide whitespace-nowrap leading-none"
+                    className="inline-flex items-center h-fit bg-gradient-to-br from-slate-700/30 to-slate-900/30 text-slate-100 rounded text-sm border border-slate-700 shadow-md hover:bg-slate-700/40 hover:text-white transition select-none font-medium tracking-wide whitespace-nowrap"
+                    style={{ padding: "0.25rem 0.75rem" }}
                   >
                     {skill}
-                  </span>
+                  </div>
                 ))}
               </div>
             </div>
