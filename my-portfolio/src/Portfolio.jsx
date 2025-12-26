@@ -202,7 +202,6 @@ export default function Portfolio() {
                   <span className="w-3 h-3 bg-slate-500 rounded-sm"></span>
                   <h2 className="text-2xl font-semibold text-white font-serif">Professional Experience</h2>
                 </div>
-                <p className="text-slate-400 text-sm mt-2">Click to view full details</p>
               </button>
             </section>
 
@@ -283,7 +282,6 @@ export default function Portfolio() {
                   <span className="w-3 h-3 bg-slate-500 rounded-sm"></span>
                   <h2 className="text-2xl font-semibold text-white font-serif">Recommendation</h2>
                 </div>
-                <p className="text-slate-400 text-sm mt-2">Click to view recommendation</p>
               </button>
             </section>
 
@@ -297,7 +295,6 @@ export default function Portfolio() {
                   <span className="w-3 h-3 bg-slate-500 rounded-sm"></span>
                   <h2 className="text-2xl font-semibold text-white font-serif">Skills</h2>
                 </div>
-                <p className="text-slate-400 text-sm mt-2">Click to view all skills</p>
               </button>
             </section>
 
@@ -311,7 +308,6 @@ export default function Portfolio() {
                   <span className="w-3 h-3 bg-slate-500 rounded-sm"></span>
                   <h2 className="text-2xl font-semibold text-white font-serif">Projects</h2>
                 </div>
-                <p className="text-slate-400 text-sm mt-2">Click to view all projects</p>
               </button>
             </section>
 
@@ -323,14 +319,14 @@ export default function Portfolio() {
 
         {/* PROFESSIONAL EXPERIENCE MODAL */}
         {modalOpen === 'experience' && (
-          <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 overflow-y-auto">
-            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-2xl w-full my-8 shadow-2xl">
+          <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
+            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-2xl w-full h-screen max-h-screen shadow-2xl flex flex-col">
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-3xl font-semibold text-white font-serif">Professional Experience</h2>
                 <button onClick={() => setModalOpen(null)} className="text-slate-400 hover:text-white text-2xl">×</button>
               </div>
 
-              <div className="space-y-8 max-h-[70vh] overflow-y-auto pr-4">
+              <div className="space-y-8 flex-1 overflow-y-auto pr-4">
                 {/* ========== JOB 1 — PITNEY BOWES ========== */}
                 <article className="bg-slate-800/60 border border-slate-700 rounded-xl p-6 shadow-xl">
                   <h3 className="text-xl font-semibold text-white">Software Engineering Intern</h3>
@@ -374,7 +370,7 @@ export default function Portfolio() {
         {/* RECOMMENDATION MODAL */}
         {modalOpen === 'recommendation' && (
           <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
-            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-2xl w-full shadow-2xl">
+            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-2xl w-full h-screen max-h-screen shadow-2xl flex flex-col">
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-3xl font-semibold text-white font-serif">Recommendation</h2>
                 <button onClick={() => setModalOpen(null)} className="text-slate-400 hover:text-white text-2xl">×</button>
@@ -393,14 +389,14 @@ export default function Portfolio() {
 
         {/* SKILLS MODAL */}
         {modalOpen === 'skills' && (
-          <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 overflow-y-auto">
-            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-3xl w-full my-8 shadow-2xl">
+          <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
+            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-3xl w-full h-screen max-h-screen shadow-2xl flex flex-col">
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-3xl font-semibold text-white font-serif">Skills</h2>
                 <button onClick={() => setModalOpen(null)} className="text-slate-400 hover:text-white text-2xl">×</button>
               </div>
 
-              <div className="flex flex-wrap justify-center gap-3 px-2 max-h-[70vh] overflow-y-auto">
+              <div className="flex flex-wrap justify-center gap-3 px-2 flex-1 overflow-y-auto">
                 {[
                   // Programming Languages
                   "Java", "Python", "C", "C++", "C#", "JavaScript", "TypeScript",
@@ -431,14 +427,14 @@ export default function Portfolio() {
 
         {/* PROJECTS MODAL */}
         {modalOpen === 'projects' && (
-          <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 overflow-y-auto">
-            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-4xl w-full my-8 shadow-2xl">
+          <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
+            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-4xl w-full h-screen max-h-screen shadow-2xl flex flex-col">
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-3xl font-semibold text-white font-serif">Projects</h2>
                 <button onClick={() => setModalOpen(null)} className="text-slate-400 hover:text-white text-2xl">×</button>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-h-[70vh] overflow-y-auto pr-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 flex-1 overflow-y-auto pr-4">
                 {/* VirtualPal */}
                 <div className="flex flex-col items-center text-center">
                   <button
