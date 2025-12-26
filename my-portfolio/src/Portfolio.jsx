@@ -205,6 +205,19 @@ export default function Portfolio() {
               </button>
             </section>
 
+            {/* ================= RECOMMENDATION ================= */}
+            <section className="w-full">
+              <button
+                onClick={() => setModalOpen('recommendation')}
+                className="w-full bg-gradient-to-br from-[#23272a]/80 to-[#1a1a1a]/80 border border-slate-700 rounded-2xl p-4 shadow-2xl hover:shadow-slate-400/30 hover:border-slate-500 transition-all text-left"
+              >
+                <div className="flex items-center gap-2">
+                  <span className="w-3 h-3 bg-slate-500 rounded-sm"></span>
+                  <h2 className="text-2xl font-semibold text-white font-serif">Recommendation</h2>
+                </div>
+              </button>
+            </section>
+
           </div>
 
           {/* RIGHT COLUMN: Education, Skills, Projects */}
@@ -214,7 +227,6 @@ export default function Portfolio() {
             <section className="w-full">
               <details
                 className="group bg-gradient-to-br from-[#23272a]/80 to-[#1a1a1a]/80 border border-slate-700 rounded-2xl p-4 shadow-2xl w-full"
-                open
               >
                 <summary className="cursor-pointer list-none flex items-center justify-between">
                   <h2 className="text-2xl font-semibold text-white flex items-center gap-2 font-serif">
@@ -249,19 +261,6 @@ export default function Portfolio() {
 
                 </div>
               </details>
-            </section>
-
-            {/* ================= RECOMMENDATION ================= */}
-            <section className="w-full">
-              <button
-                onClick={() => setModalOpen('recommendation')}
-                className="w-full bg-gradient-to-br from-[#23272a]/80 to-[#1a1a1a]/80 border border-slate-700 rounded-2xl p-4 shadow-2xl hover:shadow-slate-400/30 hover:border-slate-500 transition-all text-left"
-              >
-                <div className="flex items-center gap-2">
-                  <span className="w-3 h-3 bg-slate-500 rounded-sm"></span>
-                  <h2 className="text-2xl font-semibold text-white font-serif">Recommendation</h2>
-                </div>
-              </button>
             </section>
 
             {/* ================= SKILLS ================= */}
