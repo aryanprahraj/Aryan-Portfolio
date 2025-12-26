@@ -320,13 +320,15 @@ export default function Portfolio() {
         {/* PROFESSIONAL EXPERIENCE MODAL */}
         {modalOpen === 'experience' && (
           <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
-            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-[80vw] lg:max-w-6xl shadow-2xl max-h-[90vh] overflow-y-auto">
-              <div className="flex justify-between items-center mb-6 sticky top-0 bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 py-2 -mx-8 px-8 z-10">
+            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl max-w-[80vw] lg:max-w-6xl shadow-2xl max-h-[90vh] flex flex-col">
+              {/* Fixed Header */}
+              <div className="flex justify-between items-center px-8 py-6 border-b border-slate-700 flex-shrink-0">
                 <h2 className="text-3xl font-semibold text-white font-serif">Professional Experience</h2>
                 <button onClick={() => setModalOpen(null)} className="text-slate-400 hover:text-white text-2xl">×</button>
               </div>
 
-              <div className="space-y-8 pr-4">
+              {/* Scrollable Content */}
+              <div className="space-y-8 px-8 py-6 overflow-y-auto flex-1">
                 {/* ========== JOB 1 — PITNEY BOWES ========== */}
                 <article className="bg-slate-800/60 border border-slate-700 rounded-xl p-6 shadow-xl">
                   <h3 className="text-xl font-semibold text-white">Software Engineering Intern</h3>
