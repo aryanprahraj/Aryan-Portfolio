@@ -369,6 +369,20 @@ export default function Portfolio() {
       <h2 className="text-2xl font-semibold text-white font-serif">Projects</h2>
     </summary>
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        {/* VirtualPal */}
+        <div className="flex flex-col items-center text-center">
+          <button
+            onClick={() => window.open("https://virtualpal.vercel.app/", "_blank")}
+            className="w-32 h-32 rounded-full bg-gradient-to-br from-[#23272a] via-[#23272a] to-[#23272a] \
+                       flex items-center justify-center text-white font-semibold shadow-2xl border-4 border-slate-400/30\
+                       hover:scale-110 hover:shadow-slate-400/30 transition-all duration-300"
+          >
+            VirtualPal
+          </button>
+          <p className="mt-3 text-slate-200 text-[15px] leading-relaxed font-medium">
+            Artificial companion app where different buddies help you vent, learn, laugh, and connect when you need it most.
+          </p>
+        </div>
         {/* Guard My Bills */}
         <div className="flex flex-col items-center text-center">
           <button
@@ -465,20 +479,6 @@ export default function Portfolio() {
           </button>
           <p className="mt-3 text-slate-200 text-[15px] leading-relaxed font-medium">
             A 3D color-matching puzzle game built in Unity.
-          </p>
-        </div>
-        {/* VirtualPal */}
-        <div className="flex flex-col items-center text-center">
-          <button
-            onClick={() => window.open("https://virtualpal.vercel.app/", "_blank")}
-            className="w-32 h-32 rounded-full bg-gradient-to-br from-[#23272a] via-[#23272a] to-[#23272a] \
-                       flex items-center justify-center text-white font-semibold shadow-2xl border-4 border-slate-400/30\
-                       hover:scale-110 hover:shadow-slate-400/30 transition-all duration-300"
-          >
-            VirtualPal
-          </button>
-          <p className="mt-3 text-slate-200 text-[15px] leading-relaxed font-medium">
-            Artificial companion app where different buddies help you vent, learn, laugh, and connect when you need it most.
           </p>
         </div>
     </div>
