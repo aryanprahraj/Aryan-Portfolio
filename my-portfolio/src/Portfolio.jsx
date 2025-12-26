@@ -205,27 +205,6 @@ export default function Portfolio() {
               </button>
             </section>
 
-            {/* ================= RECOMMENDATION ================= */}
-            <section className="w-full">
-              <details 
-                className="group bg-gradient-to-br from-[#23272a]/80 to-[#1a1a1a]/80 border border-slate-700 rounded-2xl p-4 shadow-2xl w-full"
-              >
-                <summary className="cursor-pointer list-none flex items-center gap-2">
-                  <span className="w-3 h-3 bg-slate-500 rounded-sm"></span>
-                  <h2 className="text-2xl font-semibold text-white font-serif">Recommendation</h2>
-                </summary>
-
-                <div className="mt-6 flex justify-center">
-                  <img 
-                    src="/recommendation.png"
-                    alt="Recommendation Screenshot"
-                    className="rounded-xl shadow-2xl border-4 border-slate-400/30 max-w-full w-[700px] hover:scale-105 transition"
-                  />
-                </div>
-
-              </details>
-            </section>
-
           </div>
 
           {/* RIGHT COLUMN: Education, Skills, Projects */}
