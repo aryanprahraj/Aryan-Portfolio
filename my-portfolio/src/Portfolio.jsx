@@ -424,9 +424,10 @@ export default function Portfolio() {
                     onClick={() => window.open("https://virtualpal.vercel.app/", "_blank")}
                     className="w-40 h-40 rounded-lg bg-gradient-to-br from-[#23272a] via-[#23272a] to-[#23272a] flex items-center justify-center shadow-2xl border-2 border-slate-700 hover:scale-105 hover:shadow-slate-400/30 transition-all duration-300 overflow-hidden"
                   >
-                    <img src="/virtualpal.png" alt="VirtualPal" className="w-full h-full object-cover" />
+                    <img src="/virtualpal.png" alt="VirtualPal" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">VirtualPal</p>
+                  <p className="mt-1 text-slate-300 text-xs">Artificial companion app</p>
                 </div>
                 {/* Guard My Bills */}
                 <div className="flex flex-col items-center text-center">
@@ -434,9 +435,10 @@ export default function Portfolio() {
                     onClick={() => window.open("https://guard-my-bills.vercel.app/", "_blank")}
                     className="w-40 h-40 rounded-lg bg-gradient-to-br from-[#23272a] via-[#23272a] to-[#23272a] flex items-center justify-center shadow-2xl border-2 border-slate-700 hover:scale-105 hover:shadow-slate-400/30 transition-all duration-300 overflow-hidden"
                   >
-                    <img src="/guardmybills.png" alt="Guard My Bills" className="w-full h-full object-cover" />
+                    <img src="/guardmybills.png" alt="Guard My Bills" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">Guard My Bills</p>
+                  <p className="mt-1 text-slate-300 text-xs">ML fraud detection tool</p>
                 </div>
                 {/* SheeEasy */}
                 <div className="flex flex-col items-center text-center">
@@ -444,9 +446,10 @@ export default function Portfolio() {
                     onClick={() => window.open("https://sheeeasy.vercel.app/", "_blank")}
                     className="w-40 h-40 rounded-lg bg-gradient-to-br from-[#23272a] via-[#23272a] to-[#23272a] flex items-center justify-center shadow-2xl border-2 border-slate-700 hover:scale-105 hover:shadow-slate-400/30 transition-all duration-300 overflow-hidden"
                   >
-                    <img src="/sheeeasy.png" alt="SheeEasy" className="w-full h-full object-cover" />
+                    <img src="/sheeeasy.png" alt="SheeEasy" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">SheeEasy</p>
+                  <p className="mt-1 text-slate-300 text-xs">Spreadsheet with AI</p>
                 </div>
                 {/* Freeflix */}
                 <div className="flex flex-col items-center text-center">
@@ -454,9 +457,10 @@ export default function Portfolio() {
                     onClick={() => window.open("https://freeflix-app.vercel.app/", "_blank")}
                     className="w-40 h-40 rounded-lg bg-gradient-to-br from-[#23272a] via-[#23272a] to-[#23272a] flex items-center justify-center shadow-2xl border-2 border-slate-700 hover:scale-105 hover:shadow-slate-400/30 transition-all duration-300 overflow-hidden"
                   >
-                    <img src="/freeflix.png" alt="Freeflix" className="w-full h-full object-cover" />
+                    <img src="/freeflix.png" alt="Freeflix" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">Freeflix</p>
+                  <p className="mt-1 text-slate-300 text-xs">Movie recommendation app</p>
                 </div>
                 {/* AI Detective */}
                 <div className="flex flex-col items-center text-center">
@@ -464,9 +468,10 @@ export default function Portfolio() {
                     onClick={() => window.open("https://ai-detective-aryanprahraj.streamlit.app", "_blank")}
                     className="w-40 h-40 rounded-lg bg-gradient-to-br from-[#23272a] via-[#23272a] to-[#23272a] flex items-center justify-center shadow-2xl border-2 border-slate-700 hover:scale-105 hover:shadow-slate-400/30 transition-all duration-300 overflow-hidden"
                   >
-                    <img src="/detective.png" alt="AI Detective" className="w-full h-full object-cover" />
+                    <img src="/detective.png" alt="AI Detective" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">AI Detective</p>
+                  <p className="mt-1 text-slate-300 text-xs">Fact-checking assistant</p>
                 </div>
                 {/* AI Resume Tailor */}
                 <div className="flex flex-col items-center text-center">
@@ -474,9 +479,10 @@ export default function Portfolio() {
                     onClick={() => window.open("https://ai-resume-tailor-rust.vercel.app/", "_blank")}
                     className="w-40 h-40 rounded-lg bg-gradient-to-br from-[#23272a] via-[#23272a] to-[#23272a] flex items-center justify-center shadow-2xl border-2 border-slate-700 hover:scale-105 hover:shadow-slate-400/30 transition-all duration-300 overflow-hidden"
                   >
-                    <img src="/resumetailor.png" alt="Resume Tailor" className="w-full h-full object-cover" />
+                    <img src="/resumetailor.png" alt="Resume Tailor" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">Resume Tailor</p>
+                  <p className="mt-1 text-slate-300 text-xs">AI resume rewriter</p>
                 </div>
                 {/* AryanInZombieland */}
                 <div className="flex flex-col items-center text-center">
@@ -484,9 +490,10 @@ export default function Portfolio() {
                     onClick={() => window.open("https://ap16957n.itch.io/aryaninzombieland", "_blank")}
                     className="w-40 h-40 rounded-lg bg-gradient-to-br from-[#23272a] via-[#23272a] to-[#23272a] flex items-center justify-center shadow-2xl border-2 border-slate-700 hover:scale-105 hover:shadow-slate-400/30 transition-all duration-300 overflow-hidden"
                   >
-                    <img src="/zombie.png" alt="Zombieland" className="w-full h-full object-cover" />
+                    <img src="/zombie.png" alt="Zombieland" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">Zombieland</p>
+                  <p className="mt-1 text-slate-300 text-xs">Unity horror game</p>
                 </div>
                 {/* Ball Game */}
                 <div className="flex flex-col items-center text-center">
@@ -494,9 +501,10 @@ export default function Portfolio() {
                     onClick={() => window.open("https://ap16957n.itch.io/balls-on-platform", "_blank")}
                     className="w-40 h-40 rounded-lg bg-gradient-to-br from-[#23272a] via-[#23272a] to-[#23272a] flex items-center justify-center shadow-2xl border-2 border-slate-700 hover:scale-105 hover:shadow-slate-400/30 transition-all duration-300 overflow-hidden"
                   >
-                    <img src="/3dgame.png" alt="Ball Game 3D" className="w-full h-full object-cover" />
+                    <img src="/3dgame.png" alt="Ball Game 3D" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">Ball Game 3D</p>
+                  <p className="mt-1 text-slate-300 text-xs">3D puzzle game</p>
                 </div>
               </div>
             </div>
