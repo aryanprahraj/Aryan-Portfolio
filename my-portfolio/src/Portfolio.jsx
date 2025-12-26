@@ -320,13 +320,13 @@ export default function Portfolio() {
         {/* PROFESSIONAL EXPERIENCE MODAL */}
         {modalOpen === 'experience' && (
           <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
-            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-2xl w-full h-screen max-h-screen shadow-2xl flex flex-col">
-              <div className="flex justify-between items-center mb-6">
+            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-[80vw] lg:max-w-6xl shadow-2xl max-h-[90vh] overflow-y-auto">
+              <div className="flex justify-between items-center mb-6 sticky top-0 bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 py-2 -mx-8 px-8 z-10">
                 <h2 className="text-3xl font-semibold text-white font-serif">Professional Experience</h2>
                 <button onClick={() => setModalOpen(null)} className="text-slate-400 hover:text-white text-2xl">×</button>
               </div>
 
-              <div className="space-y-8 flex-1 overflow-y-auto pr-4">
+              <div className="space-y-8 pr-4">
                 {/* ========== JOB 1 — PITNEY BOWES ========== */}
                 <article className="bg-slate-800/60 border border-slate-700 rounded-xl p-6 shadow-xl">
                   <h3 className="text-xl font-semibold text-white">Software Engineering Intern</h3>
@@ -334,7 +334,7 @@ export default function Portfolio() {
                     Pitney Bowes • July 2025 – October 2025 • Shelton, Connecticut, U.S.A.
                   </p>
 
-                  <p className="mt-4 text-slate-300 text-[15px] leading-relaxed text-justify">
+                  <p className="mt-4 text-slate-300 text-[15px] leading-relaxed">
                     Worked on fixing 100+ security issues in Java and Spring Boot services, which noticeably improved API security. I also spent a lot of time containerizing 10+ microservices on AWS using ECS, EKS, and Elastic Beanstalk, helping the team hit 99.9 percent uptime and reduce deployment delays. I improved our Jenkins and GitLab CI/CD pipelines with BOM-based dependency management, cutting build failures and speeding up releases, built Spring Boot APIs that performed better under load, and helped automate testing and monitoring to reduce repetitive manual checks.
                   </p>
                 </article>
@@ -346,7 +346,7 @@ export default function Portfolio() {
                     OptimEyes.AI • November 2023 – April 2024 • Pune, Maharashtra, India
                   </p>
 
-                  <p className="mt-4 text-slate-300 text-[15px] leading-relaxed text-justify">
+                  <p className="mt-4 text-slate-300 text-[15px] leading-relaxed">
                     Worked on building new UI features in Angular 8+ and connected them to Spring Boot services on the backend, which helped speed up page loads by around 20 percent. I also helped shape parts of our microservices architecture, making deployments smoother, more modular and noticeably faster. I joined daily sync-ups with the project manager, which really improved how I planned and prioritized tasks and contributed to hitting milestones more consistently. Along the way, I spent a lot of time testing and debugging the app, cutting down bugs by about 30 percent and making the overall system much more stable.
                   </p>
                 </article>
@@ -358,7 +358,7 @@ export default function Portfolio() {
                     Youth India Foundation • June 2021 – August 2021 • Bhubaneswar, Odisha, India
                   </p>
 
-                  <p className="mt-4 text-slate-300 text-[15px] leading-relaxed text-justify">
+                  <p className="mt-4 text-slate-300 text-[15px] leading-relaxed">
                     I designed and refined user interfaces for the Beyond Threads initiative using Angular 8+ and Canva, which made the visuals more engaging and helped improve page load speed by about 20 percent. I focused on keeping the UI/UX consistent and accessible, aligning everything with brand guidelines and usability standards so the experience felt inclusive for all users. I also worked closely with designers, developers, and other teams to keep our workflows in sync, making feature delivery smoother and the overall project execution much more coordinated.
                   </p>
                 </article>
