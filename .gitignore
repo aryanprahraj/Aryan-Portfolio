@@ -1,0 +1,26 @@
+dist-ssr
+
+# Node modules
+node_modules/
+
+# Production build output
+dist/
+
+# Local env files
+.env
+
+# macOS system files
+.DS_Store
+
+# Production build output
+dist/
+dist-ssr/
+
+# Dependency lock file
+package-lock.json
+
+# Local env files
+.env
+
+# macOS system files
+.DS_Store
