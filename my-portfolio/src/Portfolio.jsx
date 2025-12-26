@@ -417,7 +417,7 @@ export default function Portfolio() {
                 ].map((skill, i) => (
                   <span
                     key={i}
-                    className="px-4 py-2 bg-gradient-to-br from-slate-700/30 to-slate-900/30 text-slate-100 rounded-lg text-sm border border-slate-700 shadow-md hover:bg-slate-700/40 hover:text-white transition select-none font-medium tracking-wide whitespace-nowrap"
+                    className="px-4 py-2 bg-gradient-to-br from-slate-700/30 to-slate-900/30 text-slate-100 rounded text-sm border border-slate-700 shadow-md hover:bg-slate-700/40 hover:text-white transition select-none font-medium tracking-wide whitespace-nowrap"
                   >
                     {skill}
                   </span>
