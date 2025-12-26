@@ -390,13 +390,13 @@ export default function Portfolio() {
         {/* SKILLS MODAL */}
         {modalOpen === 'skills' && (
           <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
-            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-3xl w-full h-screen max-h-screen shadow-2xl flex flex-col">
+            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-4xl shadow-2xl max-h-[90vh] overflow-y-auto">
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-3xl font-semibold text-white font-serif">Skills</h2>
                 <button onClick={() => setModalOpen(null)} className="text-slate-400 hover:text-white text-2xl">×</button>
               </div>
 
-              <div className="flex flex-wrap justify-center gap-2 px-2 flex-1 overflow-y-auto items-start content-start">
+              <div className="flex flex-wrap justify-center gap-2 px-2 items-start content-start">
                 {[
                   // Programming Languages
                   "Java", "Python", "C", "C++", "C#", "JavaScript", "TypeScript",
