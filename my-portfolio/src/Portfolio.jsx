@@ -371,7 +371,7 @@ export default function Portfolio() {
         {/* SKILLS MODAL */}
         {modalOpen === 'skills' && (
           <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
-            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl max-w-[80vw] lg:max-w-6xl shadow-2xl max-h-[75vh] flex flex-col">
+            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl max-w-[80vw] lg:max-w-6xl shadow-2xl max-h-[80vh] flex flex-col">
               <div className="flex justify-between items-center px-8 py-6 border-b border-slate-700 flex-shrink-0">
                 <h2 className="text-3xl font-semibold text-white font-serif">Skills</h2>
                 <button onClick={() => setModalOpen(null)} className="text-slate-400 hover:text-white text-2xl">×</button>
@@ -412,13 +412,13 @@ export default function Portfolio() {
         {/* PROJECTS MODAL */}
         {modalOpen === 'projects' && (
           <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
-            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl p-8 max-w-4xl w-full h-screen max-h-screen shadow-2xl flex flex-col">
-              <div className="flex justify-between items-center mb-6">
+            <div className="bg-gradient-to-br from-[#23272a]/95 to-[#1a1a1a]/95 border border-slate-700 rounded-2xl max-w-[90vw] lg:max-w-7xl shadow-2xl max-h-[85vh] flex flex-col">
+              <div className="flex justify-between items-center px-8 py-6 border-b border-slate-700 flex-shrink-0">
                 <h2 className="text-3xl font-semibold text-white font-serif">Projects</h2>
                 <button onClick={() => setModalOpen(null)} className="text-slate-400 hover:text-white text-2xl">×</button>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 flex-1 overflow-y-auto pr-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-8 py-6 overflow-y-auto flex-1">
                 {/* VirtualPal */}
                 <div className="flex flex-col items-center text-center">
                   <button
