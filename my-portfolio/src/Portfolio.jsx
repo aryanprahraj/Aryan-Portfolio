@@ -427,7 +427,7 @@ export default function Portfolio() {
                     <img src="/virtualpal.png" alt="VirtualPal" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">VirtualPal</p>
-                  <p className="mt-1 text-slate-300 text-xs">Artificial companion app</p>
+                  <p className="mt-2 text-slate-300 text-xs leading-relaxed">Artificial companion app where different buddies help you vent, learn, laugh, and connect when you need it most.</p>
                 </div>
                 {/* Guard My Bills */}
                 <div className="flex flex-col items-center text-center">
@@ -438,7 +438,7 @@ export default function Portfolio() {
                     <img src="/guardmybills.png" alt="Guard My Bills" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">Guard My Bills</p>
-                  <p className="mt-1 text-slate-300 text-xs">ML fraud detection tool</p>
+                  <p className="mt-2 text-slate-300 text-xs leading-relaxed">An ML-powered fraud detection tool for bank statements — private, fast, and accurate.</p>
                 </div>
                 {/* SheeEasy */}
                 <div className="flex flex-col items-center text-center">
@@ -449,7 +449,7 @@ export default function Portfolio() {
                     <img src="/sheeeasy.png" alt="SheeEasy" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">SheeEasy</p>
-                  <p className="mt-1 text-slate-300 text-xs">Spreadsheet with AI</p>
+                  <p className="mt-2 text-slate-300 text-xs leading-relaxed">A full-featured spreadsheet app with an AI co-pilot.</p>
                 </div>
                 {/* Freeflix */}
                 <div className="flex flex-col items-center text-center">
@@ -460,7 +460,7 @@ export default function Portfolio() {
                     <img src="/freeflix.png" alt="Freeflix" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">Freeflix</p>
-                  <p className="mt-1 text-slate-300 text-xs">Movie recommendation app</p>
+                  <p className="mt-2 text-slate-300 text-xs leading-relaxed">A full-stack movie recommendation app with mood filters and multilingual search.</p>
                 </div>
                 {/* AI Detective */}
                 <div className="flex flex-col items-center text-center">
@@ -471,7 +471,7 @@ export default function Portfolio() {
                     <img src="/detective.png" alt="AI Detective" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">AI Detective</p>
-                  <p className="mt-1 text-slate-300 text-xs">Fact-checking assistant</p>
+                  <p className="mt-2 text-slate-300 text-xs leading-relaxed">AI-powered fact-checking assistant.</p>
                 </div>
                 {/* AI Resume Tailor */}
                 <div className="flex flex-col items-center text-center">
@@ -482,7 +482,7 @@ export default function Portfolio() {
                     <img src="/resumetailor.png" alt="Resume Tailor" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">Resume Tailor</p>
-                  <p className="mt-1 text-slate-300 text-xs">AI resume rewriter</p>
+                  <p className="mt-2 text-slate-300 text-xs leading-relaxed">AI tool that rewrites your resume based on job descriptions.</p>
                 </div>
                 {/* AryanInZombieland */}
                 <div className="flex flex-col items-center text-center">
@@ -493,7 +493,7 @@ export default function Portfolio() {
                     <img src="/zombie.png" alt="Zombieland" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">Zombieland</p>
-                  <p className="mt-1 text-slate-300 text-xs">Unity horror game</p>
+                  <p className="mt-2 text-slate-300 text-xs leading-relaxed">A 3-level Unity survival-horror game.</p>
                 </div>
                 {/* Ball Game */}
                 <div className="flex flex-col items-center text-center">
@@ -504,7 +504,7 @@ export default function Portfolio() {
                     <img src="/3dgame.png" alt="Ball Game 3D" className="w-full h-full object-cover" onError={(e) => e.target.style.display = 'none'} />
                   </button>
                   <p className="mt-3 text-white text-sm font-semibold">Ball Game 3D</p>
-                  <p className="mt-1 text-slate-300 text-xs">3D puzzle game</p>
+                  <p className="mt-2 text-slate-300 text-xs leading-relaxed">A 3D color-matching puzzle game built in Unity.</p>
                 </div>
               </div>
             </div>
