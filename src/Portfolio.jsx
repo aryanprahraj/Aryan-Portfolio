@@ -248,13 +248,7 @@ export default function Portfolio() {
                 </p>
 
                 <p className="mt-3 text-slate-300 text-[15px] leading-relaxed text-justify">
-                  Worked on fixing 100+ security issues in Java and Spring Boot services, 
-                  which noticeably improved API security. I also spent a lot of time containerizing 
-                  10+ microservices on AWS using ECS, EKS, and Elastic Beanstalk, helping the team 
-                  hit 99.9 percent uptime and reduce deployment delays. I improved our Jenkins and 
-                  GitLab CI/CD pipelines with BOM-based dependency management, cutting build failures 
-                  and speeding up releases, built Spring Boot APIs that performed better under load, 
-                  and helped automate testing and monitoring to reduce repetitive manual checks.
+                  Resolved 100 plus high severity security vulnerabilities across Spring Boot and WildFly micros-ervices by upgrading dependency stacks including Jackson, SnakeYAML, and BouncyCastle, improving API security and IAM compliance by 30 percent, while upgrading existing dependencies and introducing standardised parent POMs, migrating legacy code to support newer libraries, removing unused or unsupported components, and implementing Maven dependency management and hierarchy to improve long term maintainability, containerised and orchestrated 10 plus micro-services using AWS ECS, EKS, and Elastic Beanstalk with load balancing, auto scaling, and environment specific configurations to achieve 99.9 percent service uptime and reduce deployment latency by 25 percent, and developed secure, modular RESTful APIs using Spring Boot and Hibernate JPA while optimising CI/CD pipelines with Jenkins and GitLab to reduce build failures by 40 percent and improve deployment speed by 35 percent, collaborating with DevOps and QA teams to automate testing and monitoring, reducing manual validation time by 15 percent and improving overall release reliability.
                 </p>
               </article>
 
@@ -280,7 +274,7 @@ export default function Portfolio() {
               <article className="bg-slate-800/60 border border-slate-700 rounded-xl p-5 shadow-xl hover:shadow-slate-400/20 transition">
                 <h3 className="text-lg font-semibold text-white">Front End Developer Intern</h3>
                 <p className="text-sm text-slate-400">
-                  Youth India Foundation • June 2021 – August 2021 • Bhubaneswar, Odisha, India
+                  Youth India Foundation • Nov 2021 – Feb 2022 • Bhubaneswar, Odisha, India
                 </p>
 
                 <p className="mt-3 text-slate-300 text-[15px] leading-relaxed text-justify">
