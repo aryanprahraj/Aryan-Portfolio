@@ -274,7 +274,7 @@ export default function Portfolio() {
               <article className="bg-slate-800/60 border border-slate-700 rounded-xl p-5 shadow-xl hover:shadow-slate-400/20 transition">
                 <h3 className="text-lg font-semibold text-white">Front End Developer Intern</h3>
                 <p className="text-sm text-slate-400">
-                  Youth India Foundation • Nov 2021 – Feb 2022 • Bhubaneswar, Odisha, India
+                  Youth India Foundation • November 2021 – February 2022 • Bhubaneswar, Odisha, India
                 </p>
 
                 <p className="mt-3 text-slate-300 text-[15px] leading-relaxed text-justify">
