@@ -187,6 +187,18 @@ export default function Portfolio() {
                       Visit Repo
                     </a>
                   </p>
+
+                  <p>
+                    Resume:
+                    <a
+                      href="/AryanPrahrajWorkResume.pdf"
+                      target="_blank"
+                      download
+                      className="text-indigo-400 hover:underline ml-1"
+                    >
+                      View my Resume
+                    </a>
+                  </p>
                 </div>
 
               </details>
