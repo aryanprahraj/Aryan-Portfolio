@@ -121,7 +121,7 @@ export default function Portfolio() {
       <div className="relative z-10">
         <main>
         {/* ================= HEADER / NAME ================= */}
-        <header className="max-w-4xl mx-auto text-center pt-12 px-4">
+        <header className="max-w-4xl mx-auto text-center pt-48 px-4">
           <h1 className="text-6xl font-extrabold tracking-tight drop-shadow-lg animate-fade-in font-serif">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-slate-500">Aryan</span>
             <span> </span>
