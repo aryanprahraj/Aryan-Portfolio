@@ -193,6 +193,8 @@ export default function Portfolio() {
                     <a
                       href="/AryanPrahrajWorkResume.pdf"
                       target="_blank"
+                      rel="noopener noreferrer"
+                      download="AryanPrahrajWorkResume.pdf"
                       className="text-indigo-400 hover:underline ml-1"
                     >
                       View my Resume
