@@ -191,7 +191,7 @@ export default function Portfolio() {
                   <p>
                     Resume:
                     <a
-                      href="/AryanPrahrajWorkResume.pdf"
+                      href="/12345.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-indigo-400 hover:underline ml-1"
