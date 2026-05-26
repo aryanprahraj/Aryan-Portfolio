@@ -132,7 +132,7 @@ export default function Portfolio() {
         {/* =============== SUMMARY (JUSTIFIED TEXT) ================= */}
         <section className="max-w-5xl mx-auto mt-6 px-4">
           <p className="text-slate-200 text-[16px] leading-relaxed text-justify bg-slate-900/60 rounded-xl p-6 shadow-lg border border-slate-800">
-            Hey, I'm Aryan! I build cloud-ready, well-behaved software with a mix of engineering discipline and chaotic curiosity. I'm currently pursuing my master's in Computer Science at Pace University, exploring modern software design while crafting reliable systems that don't panic under load. I previously interned at an MNC, where I shipped real features, broke a few things fixed them fast and loved every moment.
+            Hey, I'm Aryan! I build cloud-ready, well-behaved software with a mix of engineering discipline and chaotic curiosity. I recently completed my master's in Computer Science, exploring modern software design while crafting reliable systems that don't panic under load. I previously interned at an MNC, where I shipped real features, broke a few things, fixed them fast, and loved every moment.
           </p>
         </section>
 
