@@ -132,7 +132,7 @@ export default function Portfolio() {
         {/* =============== SUMMARY (JUSTIFIED TEXT) ================= */}
         <section className="max-w-5xl mx-auto mt-6 px-4">
           <p className="text-slate-200 text-[16px] leading-relaxed text-justify bg-slate-900/60 rounded-xl p-6 shadow-lg border border-slate-800">
-            Hey, I'm Aryan! I build cloud-ready, well-behaved software with a mix of engineering discipline and chaotic curiosity. I recently completed my master's in Computer Science, exploring modern software design while crafting reliable systems that don't panic under load. I previously interned at an MNC, where I shipped real features, broke a few things, fixed them fast, and loved every moment.
+            Hey, I'm Aryan! I'm a Software Engineer with 4+ years of experience designing and building scalable backend systems, cloud-native applications, and distributed platforms. I specialize in Java, Spring Boot, AWS, and modern microservices architecture, with a passion for building secure, high-performance software. Whether I'm developing enterprise systems or AI-powered applications, I enjoy creating technology that's reliable, efficient, and built for real-world impact.
           </p>
         </section>
 
@@ -153,15 +153,15 @@ export default function Portfolio() {
                 <div className="mt-4 ml-6 space-y-1 text-slate-200 text-[15px]">
                   <p>
                     Email:
-                    <a href="mailto:aryanprahraj@gmail.com" className="text-indigo-400 hover:underline ml-1">
-                      aryanprahraj@gmail.com
+                    <a href="mailto:aryanprahraj001@gmail.com" className="text-indigo-400 hover:underline ml-1">
+                      aryanprahraj001@gmail.com
                     </a>
                   </p>
 
                   <p>
                     Contact:
-                    <a href="tel:+16463823438" className="text-indigo-400 hover:underline ml-1">
-                      +1 646-382-3438
+                    <a href="tel:+14244587199" className="text-indigo-400 hover:underline ml-1">
+                      +1 (424) 458-7199
                     </a>
                   </p>
 
@@ -191,7 +191,7 @@ export default function Portfolio() {
                   <p>
                     Resume:
                     <a
-                      href="/AryanPrahraj_Resume.pdf"
+                      href="/Resume-Aryan.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-indigo-400 hover:underline ml-1"
@@ -319,11 +319,22 @@ export default function Portfolio() {
 
               {/* Scrollable Content */}
               <div className="space-y-8 px-8 py-6 overflow-y-auto flex-1">
-                {/* ========== JOB 1 — PITNEY BOWES ========== */}
+                {/* ========== JOB 1 — JPMORGAN CHASE ========== */}
+                <article className="bg-slate-800/60 border border-slate-700 rounded-xl p-6 shadow-xl">
+                  <h3 className="text-xl font-semibold text-white">Software Engineer</h3>
+                  <p className="text-sm text-slate-400 mt-1">
+                    JPMorgan Chase &amp; Co. • October 2025 – Present • Jersey City, New Jersey, USA • Remote
+                  </p>
+                  <p className="mt-4 text-slate-300 text-[15px] leading-relaxed">
+                    Contributed to the development of a high-volume, real-time credit card transaction processing platform by building scalable backend services using Java 17, Spring Boot, and Apache Kafka within a distributed micro-services architecture. Designed and secured REST APIs for payment and digital banking applications, implemented event-driven workflows for authorisation, settlement, and fraud detection, and deployed containerised services on Amazon EKS using Docker and Kubernetes. Improved application performance by optimising PostgreSQL databases and streamlined software delivery through CI/CD automation with Jenkins and AWS CodePipeline. Strengthened platform reliability with Resilience4j, centralised logging, and cloud-native monitoring, helping deliver secure, resilient, and highly available enterprise applications.
+                  </p>
+                </article>
+
+                {/* ========== JOB 2 — PITNEY BOWES ========== */}
                 <article className="bg-slate-800/60 border border-slate-700 rounded-xl p-6 shadow-xl">
                   <h3 className="text-xl font-semibold text-white">Software Engineering Intern</h3>
                   <p className="text-sm text-slate-400 mt-1">
-                    Pitney Bowes • July 2025 – October 2025 • Shelton, Connecticut, U.S.A.
+                    Pitney Bowes • July 2025 – October 2025 • Shelton, Connecticut, U.S.A. • On-site
                   </p>
 
                   <p className="mt-4 text-slate-300 text-[15px] leading-relaxed">
@@ -331,27 +342,14 @@ export default function Portfolio() {
                   </p>
                 </article>
 
-                {/* ========== JOB 2 — OPTIMEYES.AI ========== */}
+                {/* ========== JOB 3 — COGNIZANT ========== */}
                 <article className="bg-slate-800/60 border border-slate-700 rounded-xl p-6 shadow-xl">
-                  <h3 className="text-xl font-semibold text-white">Full Stack Intern</h3>
+                  <h3 className="text-xl font-semibold text-white">Software Development Engineer</h3>
                   <p className="text-sm text-slate-400 mt-1">
-                    OptimEyes.AI • November 2023 – April 2024 • Pune, Maharashtra, India
+                    Cognizant Technology Solutions • July 2021 – June 2024 • Bhubaneswar, Odisha, India • Remote
                   </p>
-
                   <p className="mt-4 text-slate-300 text-[15px] leading-relaxed">
-                    Worked on building new UI features in Angular 8+ and connected them to Spring Boot services on the backend, which helped speed up page loads by around 20 percent. I also helped shape parts of our microservices architecture, making deployments smoother, more modular and noticeably faster. I joined daily sync-ups with the project manager, which really improved how I planned and prioritized tasks and contributed to hitting milestones more consistently. Along the way, I spent a lot of time testing and debugging the app, cutting down bugs by about 30 percent and making the overall system much more stable.
-                  </p>
-                </article>
-
-                {/* ========== JOB 3 — YOUTH INDIA FOUNDATION ========== */}
-                <article className="bg-slate-800/60 border border-slate-700 rounded-xl p-6 shadow-xl">
-                  <h3 className="text-xl font-semibold text-white">Front End Developer Intern</h3>
-                  <p className="text-sm text-slate-400 mt-1">
-                    Youth India Foundation • November 2021 – February 2022 • Bhubaneswar, Odisha, India
-                  </p>
-
-                  <p className="mt-4 text-slate-300 text-[15px] leading-relaxed">
-                    I designed and refined user interfaces for the Beyond Threads initiative using Angular 8+ and Canva, which made the visuals more engaging and helped improve page load speed by about 20 percent. I focused on keeping the UI/UX consistent and accessible, aligning everything with brand guidelines and usability standards so the experience felt inclusive for all users. I also worked closely with designers, developers, and other teams to keep our workflows in sync, making feature delivery smoother and the overall project execution much more coordinated.
+                    Contributed to the development of enterprise banking applications by building loan underwriting, eligibility, and approval modules using Java, Spring Boot, and Spring MVC. Designed RESTful APIs integrating with external credit bureaus and third-party services, developed responsive Angular applications for loan management, and optimized Oracle PL/SQL databases to improve transaction processing and reporting performance. Implemented Spring Security with role-based access control, automated CI/CD pipelines using Jenkins, Git, and Bitbucket, and improved software quality through comprehensive unit and integration testing. Worked closely with cross-functional Agile teams to deliver secure, scalable, and high-performance financial applications.
                   </p>
                 </article>
               </div>
